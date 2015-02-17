@@ -122,6 +122,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
     <Content Include="JS\angular\angular.min.js" />
+    <Content Include="JS\angular\jquery-2.0.2.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

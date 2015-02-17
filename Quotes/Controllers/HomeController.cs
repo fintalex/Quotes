@@ -33,7 +33,7 @@ namespace Quotes.Controllers
 
 		public ActionResult Xchanges()
 		{
-
+			Response.AddHeader("Access-Control-Allow-Origin", "*");
 			return View();
 		}
 		
